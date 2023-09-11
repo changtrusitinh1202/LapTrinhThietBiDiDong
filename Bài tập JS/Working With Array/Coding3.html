@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenge #3</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var arrayOfDogs = [16, 6, 10, 5, 6, 1, 4];
+    var calcAverageHumanAgeArrowFunction = dogAge => {
+            var boolean = (this.dogAge <= 2) ? (this.dogAge * 2) : (16 + this.dogAge * 4);
+            return this;
+        }
+        //var arrayOfDogsChainning =
+    var arrayOfDogsChanning = arrayOfDogs.map(calcAverageHumanAgeArrowFunction);
+    arrayOfDogsChanning.forEach(element => {
+        console.log(element);
+    })
+    console.log(calcAverageHumanAgeArrowFunction(5));
+</script>
+
+</html>
